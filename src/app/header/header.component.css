@@ -2,11 +2,10 @@
      box-shadow:0px 1px 25px #383838;    
      height: 100px;
      background-color:#FFFFFF !important;
-
 }
 
 .logo{
-    position: left;
+    float: left;
     margin-left: 30px;
     padding-top: 14px;
     width: 100px;
@@ -16,8 +15,9 @@
 }
 
 .loggin{
-    position: right;
-    margin-left: 30px;
-    padding-top: 14px;
-    width: 100px;
+    float: right;
+    margin-right: 30px;
+    padding-top: 40px;
+    width: 120px;
+    font-size: 140%;
 }
