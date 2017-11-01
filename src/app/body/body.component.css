@@ -7,17 +7,13 @@
 	box-shadow: 2px 2px 3px #666;
 	width: 60%;
 	color: white;
-	background: red;
+	background:#023054;
 }
 
 .drop_fil_plassering {
 	text-align:center;
 	padding: 12%;
 	margin: 7% 20% 7% 20%;
-	border: 2px dashed #000000;
+	border: 2px dashed #929292;
 	border-radius: 20px;	
   }
-
-  .stitched {
-	
- }
