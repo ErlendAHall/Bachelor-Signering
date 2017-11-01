@@ -1,5 +1,6 @@
 .lineshaddow{
 <<<<<<< HEAD
+<<<<<<< HEAD
 
      box-shadow:0px 1px 25px #383838;
      
@@ -72,3 +73,67 @@
 ul{
     margin: 0;
 }
+=======
+     box-shadow:0px 1px 25px #383838;
+     
+     height: 100px;
+      }
+
+      .navbar-color {
+        background-color:#FFFFFF !important;
+        height: 75px;
+        font-size: 150%; 
+        border:none;
+        
+      }
+      .nav>li>a{
+        margin-left: 100px;
+        margin-right: 100px;
+      }
+   
+      .left_rcorners4 {
+        position: absolute;
+        border-radius: 20px 0px 0px 20px;
+        background: #000000;
+        padding: 20px; 
+        width: 200px;
+        height: 75px;
+        margin-top: 10px;
+        margin-left: 50px;
+        font-size: 90%;
+        color: white;
+        line-height: 100px;
+    }
+    .right_rcorners4 {
+        position: absolute;
+        border-radius: 0px 20px 20px 0px;
+        background: #A81818;
+        padding: 20px; 
+        width: 150px;
+        height: 75px;
+        margin-top: 10px;
+        margin-left: 250px;
+        font-size: 90%;
+        color: white;
+    }
+    .logo{
+        position: inherit;
+    }
+
+    .right_rcorners4>h1{
+        margin: 0px;
+    }
+
+    .left_rcorners4>h1{
+        margin: 0px;
+    }
+
+    .Loggpå_plassering_Og_Farge{
+        position: inherit;
+        margin-top: 7%;
+        color: black;
+    }
+     ul{
+         margin: 0;
+     }
+>>>>>>> 191ea149c07ffd8da5c6015c8e38d7cd9b68701e
