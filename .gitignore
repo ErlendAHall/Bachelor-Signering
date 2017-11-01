@@ -1,2 +1,16 @@
-# See http://help.github.com/ignore-files/ for more about ignoring files.
+<<<<<<< HEAD
+<<<<<<< HEAD
+/node_modules
+=======
+# Created by .ignore support plugin (hsz.mobi)
 node_modules/
+.idea
+.git
+.gitignore
+>>>>>>> origin/Erlend
+=======
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+node_modules/
+.angular-cli.jason
+>>>>>>> origin/Alex
