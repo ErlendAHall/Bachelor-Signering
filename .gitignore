@@ -1,5 +1,14 @@
+<<<<<<< HEAD
 .idea
 .git
 .gitignore
 node_modules/
 .angular-cli.jason
+=======
+/node_modules
+node_modules/
+.idea
+.git
+.gitignore
+.angular-cli.json
+>>>>>>> 54c43d48575ff7bef3bc66318b511ec913178ea3
