@@ -1,23 +1,63 @@
-.header{
-     box-shadow:0px 1px 25px #383838;    
+.lineshaddow{
+     box-shadow:0px 1px 25px #383838;
+     
      height: 100px;
-     background-color:#FFFFFF !important;
+      }
 
-}
+      .navbar-color {
+        background-color:#FFFFFF !important;
+        height: 75px;
+        font-size: 150%; 
+        border:none;
+        
+      }
+      .nav>li>a{
+        margin-left: 50px;
+        margin-right: 50px;
+      }
+   
+      .left_rcorners4 {
+        position: absolute;
+        border-radius: 20px 0px 0px 20px;
+        background: #000000;
+        padding: 20px; 
+        width: 200px;
+        height: 75px;
+        margin-top: 10px;
+        margin-left: 50px;
+        font-size: 90%;
+        color: white;
+        line-height: 100px;
+    }
+    .right_rcorners4 {
+        position: absolute;
+        border-radius: 0px 20px 20px 0px;
+        background: #A81818;
+        padding: 20px; 
+        width: 150px;
+        height: 75px;
+        margin-top: 10px;
+        margin-left: 250px;
+        font-size: 90%;
+        color: white;
+    }
+    .logo{
+        position: inherit;
+    }
 
-.logo{
-    position: left;
-    margin-left: 30px;
-    padding-top: 14px;
-    width: 100px;
-}
-.logo img{
-    height: 70px;
-}
+    .right_rcorners4>h1{
+        margin: 0px;
+    }
 
-.loggin{
-    position: right;
-    margin-left: 30px;
-    padding-top: 14px;
-    width: 100px;
-}
+    .left_rcorners4>h1{
+        margin: 0px;
+    }
+
+    .Loggpå_plassering_Og_Farge{
+        position: inherit;
+        margin-top: 7%;
+        color: black;
+    }
+     ul{
+         margin: 0;
+     }
