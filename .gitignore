@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 /node_modules
@@ -15,6 +16,8 @@ node_modules/
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 =======
 >>>>>>> 57291b4e55de62d272f480f7e6f3c20901cfc2fe
+=======
+>>>>>>> fe201bac931d8953bdf62186974190ff7f3afc7e
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 node_modules/
 =======
@@ -39,6 +42,7 @@ node_modules/
 >>>>>>> origin/Alex
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f12ee8178f5a0cca71dd8ad5fc15afceb01eef19
 =======
 >>>>>>> d9951d566f9a35832ac93bcb8cf04247babefac5
@@ -50,3 +54,8 @@ node_modules/
 >>>>>>> d9951d566f9a35832ac93bcb8cf04247babefac5
 >>>>>>> dfad42f6f68e557276d48f003113307a82d998ea
 >>>>>>> 57291b4e55de62d272f480f7e6f3c20901cfc2fe
+=======
+>>>>>>> f12ee8178f5a0cca71dd8ad5fc15afceb01eef19
+=======
+>>>>>>> d9951d566f9a35832ac93bcb8cf04247babefac5
+>>>>>>> fe201bac931d8953bdf62186974190ff7f3afc7e
