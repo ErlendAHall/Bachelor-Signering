@@ -1,43 +1,5 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 /node_modules
-=======
-# Created by .ignore support plugin (hsz.mobi)
 node_modules/
 .idea
 .git
 .gitignore
->>>>>>> origin/Erlend
-=======
-# See http://help.github.com/ignore-files/ for more about ignoring files.
-=======
-# See http://help.github.com/ignore-files/ for more about ignoring files.
-node_modules/
-=======
-<<<<<<< HEAD
-=======
->>>>>>> d9951d566f9a35832ac93bcb8cf04247babefac5
-<<<<<<< HEAD
-/node_modules
-=======
-# Created by .ignore support plugin (hsz.mobi)
-node_modules/
-.idea
-.git
-.gitignore
->>>>>>> origin/Erlend
-=======
-# See http://help.github.com/ignore-files/ for more about ignoring files.
->>>>>>> dfad42f6f68e557276d48f003113307a82d998ea
-
-node_modules/
-.angular-cli.jason
->>>>>>> origin/Alex
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> f12ee8178f5a0cca71dd8ad5fc15afceb01eef19
-=======
->>>>>>> d9951d566f9a35832ac93bcb8cf04247babefac5
->>>>>>> dfad42f6f68e557276d48f003113307a82d998ea
