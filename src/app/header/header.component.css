@@ -10,15 +10,15 @@
     border:none;
 }
 .nav>li>a{
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .left_rcorners4 {
     position: absolute;
     border-radius: 20px 0px 0px 20px;
     background: #000000;
-    padding: 20px; 
+    padding: 20px;
     width: 200px;
     height: 75px;
     margin-top: 10px;
@@ -30,7 +30,7 @@
 .right_rcorners4 {
     position: absolute;
     border-radius: 0px 20px 20px 0px;
-    background: #A81818;
+    background:#012f53;
     padding: 20px; 
     width: 150px;
     height: 75px;
