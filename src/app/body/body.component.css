@@ -9,13 +9,17 @@
 	color: white;
 	background:#023054;
 }
+.drop_fil_plassering:hover{
+	background-color: rgb(207, 207, 207);
+}
 
 .drop_fil_plassering {
+	
 	text-align:center;
 	padding: 12%;
 	margin: 7% 20% 7% 20%;
 	border: 2px dashed #929292;
-	border-radius: 20px;	
+		
   }
 
 
