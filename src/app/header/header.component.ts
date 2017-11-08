@@ -12,12 +12,22 @@ export class HeaderComponent implements OnInit {
       this.selectedIndex = index;
   }
 
+  log(){
+
+    
+
+  }
+  
+
+
   
   constructor() {
     
    }
 
   ngOnInit() {
+   
+    
     
   }
 
