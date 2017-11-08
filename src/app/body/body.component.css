@@ -1,11 +1,28 @@
+#label-upload {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background: #023054;
+	width: 300px;
+	height: 40px;
+	color: white;
+	border-radius: 4px;
+	box-shadow: 0 2px 0 0 dimgray;
+	margin: 0 auto;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
 
-
+#upload-description {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
 .buttonstyle {
+	width: 1px;
+	height: 1px;
 	margin: 10px;	
-	border-radius: 10px;
+	/*border-radius: 10px;*/
 	font-size: 20px;
 	box-shadow: 2px 2px 3px #666;
-	width: 60%;
 	color: white;
 	background:#023054;
 }
@@ -15,7 +32,7 @@
 	padding: 12%;
 	margin: 7% 20% 7% 20%;
 	border: 2px dashed #929292;
-	border-radius: 20px;	
+	border-radius: 2px;
   }
 
 
@@ -28,5 +45,11 @@
 	margin-top: 5%;
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
+}
+
+#drop-file {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	color: gray;
 }
  
