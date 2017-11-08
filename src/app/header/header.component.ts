@@ -6,19 +6,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent implements OnInit {
-  
   selectedIndex: number;
   select(index: number) {
       this.selectedIndex = index;
   }
-
-  
   constructor() {
-    
    }
 
   ngOnInit() {
-    
   }
 
 }
