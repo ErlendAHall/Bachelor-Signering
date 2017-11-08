@@ -10,29 +10,10 @@ export class HeaderComponent implements OnInit {
   select(index: number) {
       this.selectedIndex = index;
   }
-<<<<<<< HEAD
-
-  log(){
-
-    
-
-  }
-  
-
-
-  
-=======
->>>>>>> b0bdffb6bfe9998d31e69bc8a81604ab92bc2551
   constructor() {
    }
 
   ngOnInit() {
-<<<<<<< HEAD
-   
-    
-    
-=======
->>>>>>> b0bdffb6bfe9998d31e69bc8a81604ab92bc2551
   }
 
 }
