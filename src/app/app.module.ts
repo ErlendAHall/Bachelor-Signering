@@ -23,7 +23,7 @@ const appRoutes: Routes = [
     BodyComponent,
     DokumenterComponent,
     DokumentComponent,
-    MenyComponent
+    MenyComponent,
     UtloggetComponent,
     InnloggetComponent
   ],
