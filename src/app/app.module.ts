@@ -6,6 +6,7 @@ import { HeaderComponent } from './header/header.component';
 import { BodyComponent } from './body/body.component';
 import { DokumenterComponent } from './dokumenter/dokumenter.component';
 import { DokumentComponent } from './dokumenter/dokument/dokument.component';
+import { MenyComponent } from './meny/meny.component';
 import { UtloggetComponent } from './utlogget/utlogget.component';
 import { InnloggetComponent } from './innlogget/innlogget.component';
 import{Routes, RouterModule} from '@angular/router';
@@ -22,6 +23,7 @@ const appRoutes: Routes = [
     BodyComponent,
     DokumenterComponent,
     DokumentComponent,
+    MenyComponent
     UtloggetComponent,
     InnloggetComponent
   ],
