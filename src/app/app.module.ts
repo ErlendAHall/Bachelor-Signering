@@ -7,7 +7,14 @@ import { BodyComponent } from './body/body.component';
 import { DokumenterComponent } from './dokumenter/dokumenter.component';
 import { DokumentComponent } from './dokumenter/dokument/dokument.component';
 import { MenyComponent } from './meny/meny.component';
+import { UtloggetComponent } from './utlogget/utlogget.component';
+import { InnloggetComponent } from './innlogget/innlogget.component';
+import{Routes, RouterModule} from '@angular/router';
 
+const appRoutes: Routes = [
+  {path:'', component: UtloggetComponent},
+  {path:'innlogget', component: InnloggetComponent}
+];
 
 @NgModule({
   declarations: [
@@ -17,9 +24,12 @@ import { MenyComponent } from './meny/meny.component';
     DokumenterComponent,
     DokumentComponent,
     MenyComponent
+    UtloggetComponent,
+    InnloggetComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    RouterModule.forRoot(appRoutes)
   ],
   providers: [],
   bootstrap: [AppComponent]
