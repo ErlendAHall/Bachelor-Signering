@@ -1,18 +1,19 @@
 <div class="menydiv">
-    <nav class="navigation">
-        <ul class="mainmenu">
-            <li class="menybilde"><a href="">Mine dokumenter</a></li>
-            <li class="deltbilde"><a href="">Delt med meg</a></li>
-            <li class="nyligebilde"><a href="">Nylige</a></li>
-            
-        </ul>
-    </nav>
-    <hr/>
-        <nav class="sikkerhetsdiv">   
-            <ul class="sikkerhetsuli"> 
-                <li class="sikkerhet"><a href="">Sikkerhetskopier</a></li>   
-            </ul>   
+        <nav class="navigation">
+            <ul class="mainmenu">
+                <li routerLinkActive="active" class="menybilde" [routerLinkActiveOptions]="{exact:true}">
+                    <a routerLink="/dokumenter"> Mine dokumenter</a>
+                </li>
+                <li class="deltbilde" routerLinkActive="active"><a routerLink="/innlogget">Delt med meg</a>
+                </li>
+                <li class="nyligebilde" routerLinkActive="active"><a routerLink="/innlogget">Nylige</a>
+                </li>
+    
+                <li routerLinkActive="active" class="sikkerhet" [routerLinkActiveOptions]="{exact:true}"><a routerLink="/innlogget">Sikkerhetskopier</a>
+                </li>
+    
+            </ul>
         </nav>
-    <hr/>
-
-</div>
+    
+    
+    </div>

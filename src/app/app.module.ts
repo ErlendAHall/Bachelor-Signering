@@ -13,6 +13,7 @@ import { Routes, RouterModule } from '@angular/router';
 
 const appRoutes: Routes = [
   {path: '', component: UtloggetComponent},
+  {path: 'dokumenter', component: DokumenterComponent},
   {path: 'innlogget', component: InnloggetComponent}
 ];
 
