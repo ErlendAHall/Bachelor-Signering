@@ -4,7 +4,6 @@ import { Component, OnInit } from '@angular/core';
   selector: 'app-utlogget',
   templateUrl: './utlogget.component.html',
   styleUrls: ['./utlogget.component.css'],
-  
 })
 export class UtloggetComponent implements OnInit {
 
