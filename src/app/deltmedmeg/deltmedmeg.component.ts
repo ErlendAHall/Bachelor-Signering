@@ -5,7 +5,7 @@ import { ViewEncapsulation } from '@angular/core';
 @Component({
   selector: 'app-deltmedmeg',
   templateUrl: './deltmedmeg.component.html',
-  styleUrls: ['./deltmedmeg.component.css'],
+  styleUrls: ['./deltmedmeg.component.scss'],
   encapsulation: ViewEncapsulation.None
 })
 export class DeltmedmegComponent implements OnInit {
