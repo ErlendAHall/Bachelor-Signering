@@ -24,35 +24,42 @@
     text-decoration: none;
     padding: 10px;
     color: #000;
-    
-    padding-left: 65px;
-
   }
-
   .mainmenu li {
     padding-left:12%;
     background-position: 65px 10px;
     background-repeat: no-repeat; 
   }
 
+  .mainmenu li:hover {
+    background-color: #C5C5C5;
+}
+
   .mainmenu li:last-child {
     margin-top:40px;
-    background-image: url('~/assets/img/sikkerhet.png');
+
     border-top: 1px solid #000;
     border-bottom: 1px solid #000;
    
   }
 
-  .mainmenu li.active a{
-    background-image: url('~/assets/img/right-arrow.png');
-    background-repeat: no-repeat;
-    background-size:7%;
-    background-position: 5%;
+  .mainmenu li a i:first-child {
+    color:white;
   }
 
-  .mainmenu li:hover {
-    background-color: #C5C5C5;
-}
+  .mainmenu li.active a i:first-child, 
+  .mainmenu li.active:hover a i:first-child  {
+    color:#003056;
+  }
+
+  .mainmenu li.active a i:last-child, 
+  .mainmenu li.active:hover a i:last-child  {
+    color:#003056;
+  }
+
+  .mainmenu li:hover a i:first-child {
+    color:#C5C5C5;
+  }
 
 li:hover{
     display: block;
@@ -60,31 +67,12 @@ li:hover{
   }
 
 
-  li.menybilde {
-    background-image: url('~/assets/img/dokumenter.png');
-  }
-
-
-  li.deltbilde {
-    background-image: url('~/assets/img/deltmedmeg.png');
-
-
-  }
-
-
-  li.nyligebilde {
-    background-image: url('~/assets/img/nylige.png');
-
-  }
-
-  hr {
-    margin-top:1px !important;
-    margin-bottom: 1px !important;
-    display: block;
-    border-top: 1px solid #000 !important;
-    
-   
+.fa {
+  padding-right: 5px;
+  font-size:20px;
 }
+
+
 
 
 
