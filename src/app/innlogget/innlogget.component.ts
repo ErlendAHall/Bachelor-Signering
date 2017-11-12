@@ -4,7 +4,6 @@ import { Component, OnInit } from '@angular/core';
   selector: 'app-innlogget',
   templateUrl: './innlogget.component.html',
   styleUrls: ['./innlogget.component.css'],
-  
 })
 export class InnloggetComponent implements OnInit {
 

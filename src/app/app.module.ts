@@ -9,11 +9,11 @@ import { DokumentComponent } from './dokumenter/dokument/dokument.component';
 import { MenyComponent } from './meny/meny.component';
 import { UtloggetComponent } from './utlogget/utlogget.component';
 import { InnloggetComponent } from './innlogget/innlogget.component';
-import{Routes, RouterModule} from '@angular/router';
+import { Routes, RouterModule } from '@angular/router';
 
 const appRoutes: Routes = [
-  {path:'', component: UtloggetComponent},
-  {path:'innlogget', component: InnloggetComponent}
+  {path: '', component: UtloggetComponent},
+  {path: 'innlogget', component: InnloggetComponent}
 ];
 
 @NgModule({
