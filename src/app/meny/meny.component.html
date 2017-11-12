@@ -1,24 +1,28 @@
 <div class="menydiv">
         <nav class="navigation">
             <ul class="mainmenu">
-                <li routerLinkActive="active"[routerLinkActiveOptions]="{exact:true}">
+                <li routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">
                     <a routerLink="/dokumenter">
                         <i class="fa fa-arrow-right"></i>
                         <i class="fa fa-folder-open-o"></i> Mine dokumenter</a>
                 </li>
-                <li routerLinkActive="active"><a routerLink="/innlogget">
-                    <i class="fa fa-arrow-right"></i>
-                    <i class="fa fa-users"></i>Delt med meg</a>
+                <li routerLinkActive="active">
+                    <a routerLink="/deltmedmeg">
+                        <i class="fa fa-arrow-right"></i>
+                        <i class="fa fa-users"></i>Delt med meg</a>
                 </li>
-                <li routerLinkActive="active"><a routerLink="/innlogget">
-                    <i class="fa fa-arrow-right"></i>
-                    <i class="fa fa-clock-o"></i>Nylige</a>
+                <li routerLinkActive="active">
+                    <a routerLink="/nylige">
+                        <i class="fa fa-arrow-right"></i>
+                        <i class="fa fa-clock-o"></i>Nylige</a>
                 </li>
     
                 <li routerLinkActive="active" class="sikkerhet" [routerLinkActiveOptions]="{exact:true}">
-                    <a routerLink="/innlogget"><i class="fa fa-arrow-right"></i><i class="fa fa-cloud"></i>Sikkerhetskopier</a>
+                    <a routerLink="/sikkerhetskopier">
+                        <i class="fa fa-arrow-right"></i>
+                        <i class="fa fa-cloud"></i>Sikkerhetskopier</a>
                 </li>
-                
+    
             </ul>
         </nav>
     

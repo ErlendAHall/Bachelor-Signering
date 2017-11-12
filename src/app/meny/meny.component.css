@@ -25,6 +25,9 @@
     padding: 10px;
     color: #000;
   }
+  .mainmenu a:hover {
+    text-decoration:none;
+  }
   .mainmenu li {
     padding-left:12%;
     background-position: 65px 10px;
