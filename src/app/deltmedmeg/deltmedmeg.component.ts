@@ -1,13 +1,14 @@
 import { Component, OnInit } from '@angular/core';
 import { ViewEncapsulation } from '@angular/core';
 
+
 @Component({
-  selector: 'app-meny',
-  templateUrl: './meny.component.html',
-  styleUrls: ['./meny.component.scss'],
+  selector: 'app-deltmedmeg',
+  templateUrl: './deltmedmeg.component.html',
+  styleUrls: ['./deltmedmeg.component.scss'],
   encapsulation: ViewEncapsulation.None
 })
-export class MenyComponent implements OnInit {
+export class DeltmedmegComponent implements OnInit {
 
   constructor() { }
 

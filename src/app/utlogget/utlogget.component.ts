@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-utlogget',
   templateUrl: './utlogget.component.html',
-  styleUrls: ['./utlogget.component.css'],
+  styleUrls: ['./utlogget.component.scss'],
 })
 export class UtloggetComponent implements OnInit {
 
