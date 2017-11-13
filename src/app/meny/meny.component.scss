@@ -19,6 +19,15 @@
         padding-left: 12%;
         background-position: 65px 10px;
         background-repeat: no-repeat;
+        & a {
+            display: block;
+            text-decoration: none;
+            padding: 10px;
+            color: #000;
+            &:hover {
+                text-decoration: none;
+            }
+        }
         & a i:first-child {
             color: white;
         }
@@ -42,16 +51,7 @@
         }
         &:hover a i:first-child {
             color: #C5C5C5;
-        }
-        & a {
-            display: block;
-            text-decoration: none;
-            padding: 10px;
-            color: #000;
-            &:hover {
-                text-decoration: none;
-            }
-        }
+        }     
     }
 }
 
