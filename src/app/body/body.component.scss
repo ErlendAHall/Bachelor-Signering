@@ -10,12 +10,21 @@
 	box-shadow: 0 2px 0 0 dimgray;
 	margin: 0 auto;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	&:hover {
+		background-color: #224d6d;
+	}
 }
 
 #upload-description {
 	padding-top: 30px;
 	padding-bottom: 30px;
+	cursor: pointer;
+
 }
+
+
+
+
 .buttonstyle {
 	width: 1px;
 	height: 1px;
