@@ -1,18 +1,29 @@
 <div class="menydiv">
-    <nav class="navigation">
-        <ul class="mainmenu">
-            <li class="menybilde"><a href="">Mine dokumenter</a></li>
-            <li class="deltbilde"><a href="">Delt med meg</a></li>
-            <li class="nyligebilde"><a href="">Nylige</a></li>
-            
-        </ul>
-    </nav>
-    <hr/>
-        <nav class="sikkerhetsdiv">   
-            <ul class="sikkerhetsuli"> 
-                <li class="sikkerhet"><a href="">Sikkerhetskopier</a></li>   
-            </ul>   
+        <nav class="navigation">
+            <ul class="mainmenu">
+                <li routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">
+                    <a routerLink="/dokumenter">
+                        <i class="fa fa-arrow-right"></i>
+                        <i class="fa fa-folder-open-o"></i> Mine dokumenter</a>
+                </li>
+                <li routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">
+                    <a routerLink="/deltmedmeg">
+                        <i class="fa fa-arrow-right"></i>
+                        <i class="fa fa-users"></i>Delt med meg</a>
+                </li>
+                <li routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">
+                    <a routerLink="/nylige">
+                        <i class="fa fa-arrow-right"></i>
+                        <i class="fa fa-clock-o"></i>Nylige</a>
+                </li>
+    
+                <li routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">
+                    <a routerLink="/sikkerhetskopier">
+                        <i class="fa fa-arrow-right"></i>
+                        <i class="fa fa-cloud"></i>Sikkerhetskopier</a>
+                </li>
+    
+            </ul>
         </nav>
-    <hr/>
-
-</div>
+    
+    </div>
