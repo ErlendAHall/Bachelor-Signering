@@ -27,12 +27,11 @@
     padding-top: 5px;
     padding-left: 10px;
     overflow:hidden;
-}
 
-a {
-    color: black;
-}
-
-a img{
-    margin-right:5px;
+    & a {
+        color: black;
+        & img{
+            margin-right:5px;
+        }
+    }
 }
