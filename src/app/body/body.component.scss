@@ -13,6 +13,9 @@
 	&:hover {
 		background-color: #224d6d;
 	}
+	&:active {
+		box-shadow: none;
+	}
 }
 
 #upload-description {
@@ -21,9 +24,6 @@
 	cursor: pointer;
 
 }
-
-
-
 
 .buttonstyle {
 	width: 1px;
