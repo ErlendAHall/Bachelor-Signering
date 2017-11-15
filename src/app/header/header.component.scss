@@ -9,11 +9,10 @@
     margin-left: 30px;
     padding-top: 14px;
     width: 100px;
+    & img{
+        height: 70px;
+    }
 }
-.logo img{
-    height: 70px;
-}
-
 .loggin{
     float: right;
     margin-right: 30px;
