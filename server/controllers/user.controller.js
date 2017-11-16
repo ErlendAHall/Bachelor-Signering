@@ -1,6 +1,7 @@
 import db from '../db';
 import mysql from 'mysql';
 const connection = db;
+
 function list(req,res) {
 
     var query = "SELECT * FROM ??";
