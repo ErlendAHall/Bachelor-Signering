@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
+import { HttpClientModule } from '@angular/common/http';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { BodyComponent } from './body/body.component';
@@ -13,6 +13,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { SikkerhetskopierComponent } from './sikkerhetskopier/sikkerhetskopier.component';
 import { DeltmedmegComponent } from './deltmedmeg/deltmedmeg.component';
 import { NyligeComponent } from './nylige/nylige.component';
+
 
 const appRoutes: Routes = [
   {path: '', component: UtloggetComponent},
@@ -39,7 +40,8 @@ const appRoutes: Routes = [
   ],
   imports: [
     BrowserModule,
-    RouterModule.forRoot(appRoutes)
+    RouterModule.forRoot(appRoutes),
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

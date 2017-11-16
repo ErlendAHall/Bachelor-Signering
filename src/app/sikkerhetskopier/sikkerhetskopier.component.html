@@ -1,1 +1,10 @@
 <app-meny></app-meny>
+<div>
+    <ul *ngIf="list">
+        <li *ngFor="let item of list">
+            {{item.mail}}
+            {{item.fornavn}}
+            {{item.etternavn}}
+        </li>
+    </ul>
+</div>
