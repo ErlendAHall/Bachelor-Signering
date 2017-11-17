@@ -1,5 +1,6 @@
-import {Directive, EventEmitter, HostListener, Output} from '@angular/core';
+import {Directive, EventEmitter, HostListener, Output, HostBinding} from '@angular/core';
 
+// Directive deklarasjon og HTML selektor
 @Directive({
   selector: '[appDragDrop]'
 })
@@ -7,17 +8,29 @@ import {Directive, EventEmitter, HostListener, Output} from '@angular/core';
 // Directive kontrollklasse
 export class DragDropDirective {
 
-  constructor() { }
-  @Output() private filesChangeEmiter: EventEmitter<FileList> = new EventEmitter();
+    @HostBinding('style.background') private background = '#eee';
 
-  @HostListener('drop', ['$event']) public onDrop(event) {
-      event.preventDefault();
-      event.stopPropagation();
-      const files = event.dataTransfer.files;
-      if (files.length > 0) {
-          this.filesChangeEmiter.emit(files);
+      constructor() { }
+
+      @HostListener('dragover', ['$event']) public onDragOver(evt) {
+        evt.preventDefault();
+        evt.stopPropagation();
+        this.background = '#999';
       }
-  }
+      @HostListener('dragleave', ['$event']) public onDragLeave(evt) {
+        evt.preventDefault();
+        evt.stopPropagation();
+        this.background = '#eee';
+      }
+      @HostListener('drop', ['$event']) public onDrop(evt) {
+        evt.preventDefault();
+        evt.stopPropagation();
+        this.background = '#eee';
+        const files = evt.dataTransfer.files;
+        if (files.length > 0) {
+            console.log(files);
+        }
+      }
 
 }
 
