@@ -8,19 +8,19 @@ import {Directive, EventEmitter, HostListener, Output, HostBinding} from '@angul
 // Directive kontrollklasse
 export class DragDropDirective {
 
-    @HostBinding('style.background') private background = '#eee';
+    @HostBinding('style.background') private background;
 
       constructor() { }
 
       @HostListener('dragover', ['$event']) public onDragOver(evt) {
         evt.preventDefault();
         evt.stopPropagation();
-        this.background = '#999';
+        this.background = 'rgba(2,48,84,0.7)';
       }
       @HostListener('dragleave', ['$event']) public onDragLeave(evt) {
         evt.preventDefault();
         evt.stopPropagation();
-        this.background = '#eee';
+        this.background = '';
       }
       @HostListener('drop', ['$event']) public onDrop(evt) {
         evt.preventDefault();
