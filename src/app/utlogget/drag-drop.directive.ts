@@ -25,7 +25,7 @@ export class DragDropDirective {
       @HostListener('drop', ['$event']) public onDrop(evt) {
         evt.preventDefault();
         evt.stopPropagation();
-        this.background = '#eee';
+        this.background = 'rgba(2,48,84,0.7)';
         const files = evt.dataTransfer.files;
         if (files.length > 0) {
             console.log(files);
