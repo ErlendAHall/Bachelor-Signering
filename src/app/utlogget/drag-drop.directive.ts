@@ -31,7 +31,8 @@ export class DragDropDirective {
         const valid_docs: Array<File> = [];
         console.log(this.files);
         if (this.files.length > 0) {
-            for (let file of this.files) {
+            for (const file of this.files) {
+
                 // Splitter opp filnavn til navn og extension
                 console.log(file.name.toLowerCase());
                 const extArray = file.name.split('.');
