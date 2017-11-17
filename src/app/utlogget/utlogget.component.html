@@ -1,7 +1,7 @@
 <div class="row">
   <div class="col-md-12">
       <div class="content backimg">
-    <div class="drop_fil_plassering" appDragDrop (filesChangeEmiter)="onFilesChange($event)">
+    <div class="drop_fil_plassering" appDragDrop (filesChangeEmiter)="onFilesChange($event)" [allowedExtensions]="['pdf']">
         <form action="" name="form_upload" id="form_upload">
 
             <input type="file" value="Velg dokument for signering" class="buttonstyle" id="upload">
