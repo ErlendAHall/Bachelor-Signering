@@ -12,6 +12,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { SikkerhetskopierComponent } from './sikkerhetskopier/sikkerhetskopier.component';
 import { DeltmedmegComponent } from './deltmedmeg/deltmedmeg.component';
 import { NyligeComponent } from './nylige/nylige.component';
+import { DragDropDirective } from './utlogget/drag-drop.directive';
 
 const appRoutes: Routes = [
   {path: '', component: UtloggetComponent},
@@ -33,7 +34,8 @@ const appRoutes: Routes = [
     InnloggetComponent,
     SikkerhetskopierComponent,
     DeltmedmegComponent,
-    NyligeComponent
+    NyligeComponent,
+    DragDropDirective
   ],
   imports: [
     BrowserModule,
