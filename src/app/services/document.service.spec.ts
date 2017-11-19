@@ -1,3 +1,4 @@
+/*
 import { TestBed, inject } from '@angular/core/testing';
 
 import { DocumentService } from './document.service';
@@ -13,3 +14,5 @@ describe('DocumentService', () => {
     expect(service).toBeTruthy();
   }));
 });
+
+*/
