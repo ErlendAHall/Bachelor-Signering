@@ -2,17 +2,17 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { HeaderComponent } from './header/header.component';
-import { DokumenterComponent } from './dokumenter/dokumenter.component';
-import { DokumentComponent } from './dokumenter/dokument/dokument.component';
-import { MenyComponent } from './meny/meny.component';
-import { UtloggetComponent } from './utlogget/utlogget.component';
-import { InnloggetComponent } from './innlogget/innlogget.component';
+import { HeaderComponent } from './components/header/header.component';
+import { DokumenterComponent } from './components/dokumenter/dokumenter.component';
+import { DokumentComponent } from './components/dokument/dokument.component';
+import { MenyComponent } from './components/meny/meny.component';
+import { UtloggetComponent } from './components/utlogget/utlogget.component';
+import { InnloggetComponent } from './components/innlogget/innlogget.component';
 import { Routes, RouterModule } from '@angular/router';
-import { SikkerhetskopierComponent } from './sikkerhetskopier/sikkerhetskopier.component';
-import { DeltmedmegComponent } from './deltmedmeg/deltmedmeg.component';
-import { NyligeComponent } from './nylige/nylige.component';
-import { DragDropDirective } from './utlogget/drag-drop.directive';
+import { SikkerhetskopierComponent } from './components/sikkerhetskopier/sikkerhetskopier.component';
+import { DeltmedmegComponent } from './components/deltmedmeg/deltmedmeg.component';
+import { NyligeComponent } from './components/nylige/nylige.component';
+import { DragDropDirective } from './directives/drag-drop/drag-drop.directive';
 
 const appRoutes: Routes = [
   {path: '', component: UtloggetComponent},
