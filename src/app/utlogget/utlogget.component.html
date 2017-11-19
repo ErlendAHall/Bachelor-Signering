@@ -1,2 +1,23 @@
-<app-header></app-header>
-<app-body></app-body>
+<div class="row">
+  <div class="col-md-12">
+      <div class="content backimg">
+    <div class="drop_fil_plassering" appDragDrop (filesChangeEmiter)="onFilesChange($event)" [allowedExtensions]="['pdf']">
+        <form action="" name="form_upload" id="form_upload">
+
+            <input type="file" value="Velg dokument for signering" class="buttonstyle" id="upload">
+            <label for="upload" id="label-upload">
+                <span id="upload-description">Velg dokument for signering</span>
+            </label>
+            <h5 id="drop-file">Eller dra og slipp dokumentet her</h5>
+            <div class="test-list">
+                <ul>
+                    <li *ngFor="let file of fileList">
+                    {{file.name}}
+                    </li>
+                </ul>
+            </div>
+        </form>
+    </div>
+  </div>
+</div>
+</div>
