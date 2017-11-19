@@ -53,12 +53,3 @@ export class DragDropDirective {
 
 }
 
-export class DragDropComponent {
-
-    private fileList: any = [];
-    constructor() { }
-    onFilesChange(fileList: FileList) {
-        this.fileList = fileList;
-        console.log(fileList);
-    }
-}
