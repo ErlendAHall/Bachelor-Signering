@@ -6,3 +6,4 @@ describe('DragDropDirective', () => {
     expect(directive).toBeTruthy();
   });
 });
+

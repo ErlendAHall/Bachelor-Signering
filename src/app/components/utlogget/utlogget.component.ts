@@ -10,6 +10,11 @@ import {Component, OnInit} from '@angular/core';
 export class UtloggetComponent implements OnInit {
 
   constructor() { }
+  public fileList: any = [];
+  onFilesChange(fileList: FileList) {
+      this.fileList = fileList;
+      console.log(fileList);
+  }
 
   ngOnInit() {
   }
