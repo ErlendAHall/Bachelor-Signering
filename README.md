@@ -44,7 +44,7 @@ Og kjøres ved:
 $ java -jar backend/target/ngboot-app.jar
 ```
 
-Hele applikasjonen kjører på localhost:8000
+Hele applikasjonen kjører på localhost:8080
 
 
 
