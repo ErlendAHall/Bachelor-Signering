@@ -48,6 +48,7 @@ Hele applikasjonen kjører på localhost:8000
 
 
 
+
 ## Kjente dependencies
 Java SDK 8 [http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html]
 Yarn [https://yarnpkg.com/en/docs/install]
