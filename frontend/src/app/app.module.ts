@@ -1,0 +1,47 @@
+import { BrowserModule } from '@angular/platform-browser';
+import { NgModule } from '@angular/core';
+import { AppComponent } from './app.component';
+import { HeaderComponent } from './components/header/header.component';
+import { DokumenterComponent } from './components/dokumenter/dokumenter.component';
+import { DokumentComponent } from './components/dokument/dokument.component';
+import { MenyComponent } from './components/meny/meny.component';
+import { UtloggetComponent } from './components/utlogget/utlogget.component';
+import { InnloggetComponent } from './components/innlogget/innlogget.component';
+import { Routes, RouterModule, RouterLink } from '@angular/router';
+import { SikkerhetskopierComponent } from './components/sikkerhetskopier/sikkerhetskopier.component';
+import { DeltmedmegComponent } from './components/deltmedmeg/deltmedmeg.component';
+import { NyligeComponent } from './components/nylige/nylige.component';
+import { DragDropDirective } from './directives/drag-drop/drag-drop.directive';
+
+const appRoutes: Routes = [
+  {path: '', component: UtloggetComponent},
+  {path: 'dokumenter', component: DokumenterComponent},
+  {path: 'sikkerhetskopier', component: SikkerhetskopierComponent},
+  {path: 'deltmedmeg', component: DeltmedmegComponent},
+  {path: 'nylige', component: NyligeComponent},
+  {path: 'innlogget', component: InnloggetComponent}
+];
+
+@NgModule({
+  declarations: [
+    AppComponent,
+    HeaderComponent,
+    DokumenterComponent,
+    DokumentComponent,
+    MenyComponent,
+    UtloggetComponent,
+    InnloggetComponent,
+    SikkerhetskopierComponent,
+    DeltmedmegComponent,
+    NyligeComponent,
+    DragDropDirective
+  ],
+  imports: [
+    BrowserModule,
+    RouterModule.forRoot(appRoutes)
+  ],
+  providers: [],
+  bootstrap: [AppComponent]
+})
+
+export class AppModule { }
