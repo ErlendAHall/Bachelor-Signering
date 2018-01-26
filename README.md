@@ -50,8 +50,8 @@ Hele applikasjonen kjører på localhost:8000
 
 
 ## Kjente dependencies
-*Java SDK 8 [http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html]
-*Yarn [https://yarnpkg.com/en/docs/install]
-*NodeJS LTS (8.9.4) [https://nodejs.org/en/]
-*Chrome (for testing) [https://www.google.com/chrome/browser/desktop/index.html]
-*Angular CLI [https://cli.angular.io/]
+* Java SDK 8 [http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html]
+* Yarn [https://yarnpkg.com/en/docs/install]
+* NodeJS LTS (8.9.4) [https://nodejs.org/en/]
+* Chrome (for testing) [https://www.google.com/chrome/browser/desktop/index.html]
+* Angular CLI [https://cli.angular.io/]
