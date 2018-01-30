@@ -1,6 +1,11 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { Routes, RouterModule } from '@angular/router';
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import {DialogModule} from 'primeng/dialog';
 
+
+import {AuthService}from './services/auth.service';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { DokumenterComponent } from './components/dokumenter/dokumenter.component';
@@ -8,11 +13,14 @@ import { DokumentComponent } from './components/dokument/dokument.component';
 import { MenyComponent } from './components/meny/meny.component';
 import { UtloggetComponent } from './components/utlogget/utlogget.component';
 import { InnloggetComponent } from './components/innlogget/innlogget.component';
-import { Routes, RouterModule } from '@angular/router';
 import { SikkerhetskopierComponent } from './components/sikkerhetskopier/sikkerhetskopier.component';
 import { DeltmedmegComponent } from './components/deltmedmeg/deltmedmeg.component';
 import { NyligeComponent } from './components/nylige/nylige.component';
 import { DragDropDirective } from './directives/drag-drop/drag-drop.directive';
+
+
+
+
 
 const appRoutes: Routes = [
   {path: '', component: UtloggetComponent},
@@ -35,13 +43,16 @@ const appRoutes: Routes = [
     SikkerhetskopierComponent,
     DeltmedmegComponent,
     NyligeComponent,
-    DragDropDirective
+    DragDropDirective,
+    
   ],
   imports: [
     BrowserModule,
-    RouterModule.forRoot(appRoutes)
+    RouterModule.forRoot(appRoutes),
+    BrowserAnimationsModule,
+    DialogModule,
   ],
-  providers: [],
+  providers: [AuthService],
   bootstrap: [AppComponent]
 })
 

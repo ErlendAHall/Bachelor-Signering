@@ -7,9 +7,14 @@
 
   <!-- Logg inn knapp-->
   <div class="loggin">
-    <span class="glyphicon glyphicon-log-in"></span> <a routerLink="innlogget">Logg inn</a>
+    <span class="glyphicon glyphicon-log-in"></span> <a (click)=Logginn()>{{Loggname}}</a>
   </div>
 </div>
 
+<!-- <p-dialog header="Godfather I" [(visible)]="display" modal="modal" [width]="500" [height]="500" [responsive]="true">
+  <iframe height="400" width="450" src="https://preprod.signicat.com/std/method/demo?id=nbid:demo:da&target=http%3A%2F%2Flocalhost%3A4200%2Fverify">
+  </iframe>
+</p-dialog> -->
 
+<button type="button" (click)="auth.login()" pButton icon="fa-external-link-square" label="Show"></button>
 
